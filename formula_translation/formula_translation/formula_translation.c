@@ -4,9 +4,12 @@
 #include "mainMenu.h"
 #include "twoPointsDistance.h"
 #include "polynomial.h"
+#include "exponential.h"
 #include <stdio.h>
+#include <math.h>
 
 int x = 0, y = 0, a = 0, b = 0, c = 0, d = 0;
+float dx = 0;
 
 void askForVariablesFor1()
 {
@@ -34,6 +37,11 @@ void askForVariablesFor2()
 	printf("Type value of y: \n");
 	d = scanf("%d", &d);
 }
+void askForVariablesFor3()
+{
+	printf("Type value of x: \n");
+	dx = scanf("%d", &dx);
+}
 int main(void)
 {
 	char q = 'a';
@@ -53,6 +61,12 @@ int main(void)
 				askForVariablesFor2();
 				printf("Polynomial result is: %f", calculatePolynomial(a, b, c, d, x));
 				break;
+			case '3':
+				askForVariablesFor3();
+				printf("Written exponential function result is: %.6f", exponential(dx));
+				printf("\nEmbedded exp function result is: %.6f", exp(dx));
+				break;
+				
 
 			default:
 				break;

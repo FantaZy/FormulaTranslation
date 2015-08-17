@@ -21,9 +21,6 @@
     <ClCompile Include="formula_translation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mainMenu.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="mainMenu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="exponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

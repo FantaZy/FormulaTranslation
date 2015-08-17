@@ -1,0 +1,1 @@
+double calculatePolynomial(int a, int b, int c, int d, int x);

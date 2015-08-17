@@ -33,12 +33,18 @@
     <ClCompile Include="polynomial.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exponential.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="twoPointsDistance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exponential.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

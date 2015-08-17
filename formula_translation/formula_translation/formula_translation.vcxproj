@@ -80,6 +80,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="exponential.c" />
     <ClCompile Include="formula_translation.c" />
     <ClCompile Include="mainMenu.c" />
     <ClCompile Include="mainMenu.h" />
@@ -87,6 +88,7 @@
     <ClCompile Include="twoPointsDistance.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exponential.h" />
     <ClInclude Include="polynomial.h" />
     <ClInclude Include="twoPointsDistance.h" />
   </ItemGroup>

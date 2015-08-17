@@ -1,6 +1,6 @@
 #include "twoPointsDistance.h"
 #include <stdlib.h>
-#include <cmath>
+#include <math.h>
 
 double calculateDistance(int x, int y, int a, int b, int c)
 {

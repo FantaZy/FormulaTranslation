@@ -1,5 +1,4 @@
 
-
+void displayMenu();
 void mainMenuView();
 
-void displayMenu();

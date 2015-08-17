@@ -1,5 +1,10 @@
 #include "mainMenu.h"
 
+void displayMenu()
+{
+	mainMenuView();
+}
+
 void mainMenuView()
 {
 	printf("Welcom in part 1: Formula Translation");
@@ -7,7 +12,3 @@ void mainMenuView()
 	printf("1. Distance between two points\n");
 }
 
-void displayMenu()
-{
-	mainMenuView();
-}

@@ -33,6 +33,9 @@
     <ClCompile Include="exponential.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gauss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="twoPointsDistance.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gauss.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -5,11 +5,12 @@
 #include "twoPointsDistance.h"
 #include "polynomial.h"
 #include "exponential.h"
+#include "gauss.h"
 #include <stdio.h>
 #include <math.h>
 
 int x = 0, y = 0, a = 0, b = 0, c = 0, d = 0;
-float dx = 0;
+double dx = 0;
 
 void askForVariablesFor1()
 {
@@ -42,6 +43,11 @@ void askForVariablesFor3()
 	printf("Type value of x: \n");
 	dx = scanf("%d", &dx);
 }
+void askForVariablesFor4()
+{
+	printf("Type value of x: \n");
+	x = scanf("%d", &x);
+}
 int main(void)
 {
 	char q = 'a';
@@ -65,6 +71,10 @@ int main(void)
 				askForVariablesFor3();
 				printf("Written exponential function result is: %.6f", exponential(dx));
 				printf("\nEmbedded exp function result is: %.6f", exp(dx));
+				break;
+			case '4' :
+				askForVariablesFor4();
+				displayGaussResult();
 				break;
 				
 

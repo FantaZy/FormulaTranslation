@@ -1,1 +1,1 @@
-float exponential(int x);
+double exponential(int x);

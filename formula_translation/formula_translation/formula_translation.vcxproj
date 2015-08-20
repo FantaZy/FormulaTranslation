@@ -82,6 +82,7 @@
   <ItemGroup>
     <ClCompile Include="exponential.c" />
     <ClCompile Include="formula_translation.c" />
+    <ClCompile Include="frequency.c" />
     <ClCompile Include="gauss.c" />
     <ClCompile Include="mainMenu.c" />
     <ClCompile Include="polynomial.c" />
@@ -89,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exponential.h" />
+    <ClInclude Include="frequency.h" />
     <ClInclude Include="gauss.h" />
     <ClInclude Include="mainMenu.h" />
     <ClInclude Include="polynomial.h" />

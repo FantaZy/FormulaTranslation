@@ -9,6 +9,7 @@ void mainMenuView()
 	printf("2. Polynomial \n");
 	printf("3. Exponential \n");
 	printf("4. Gauss \n");
+	printf("5. Frequency \n");
 }
 
 

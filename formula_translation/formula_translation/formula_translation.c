@@ -6,11 +6,18 @@
 #include "polynomial.h"
 #include "exponential.h"
 #include "gauss.h"
+#include "frequency.h"
 #include <stdio.h>
 #include <math.h>
 
+
 int x = 0, y = 0, a = 0, b = 0, c = 0, d = 0;
 double dx = 0;
+
+cplx tmp1;
+cplx tmp2;
+cplx res;
+cplx resu;
 
 void askForVariablesFor1()
 {
@@ -50,11 +57,12 @@ void askForVariablesFor4()
 }
 int main(void)
 {
+	
 	char q = 'a';
 	while (q != 'q')
 	{
 		
-		system("cls"); //clear screen
+	//system("cls"); //clear screen
 		displayMenu();
 		q = getchar();
 		switch (q)
@@ -75,6 +83,25 @@ int main(void)
 			case '4' :
 				askForVariablesFor4();
 				displayGaussResult();
+				break;
+
+			case '5':
+				
+				resu = calculateFrequency(3);
+				
+				printf("Calculated frequency: %.6f   %.6f\n\n", resu.real, resu.imag);
+
+				tmp1.real = 2;
+				tmp1.imag = 3;
+				tmp2.real = 4;
+				tmp2.imag = 5;
+				res = multiplyComplex(tmp1, tmp2);
+				printf("Mnozenie zespolonych: %.6f   %.6f \n", res.real, res.imag);
+				res = addComplex(tmp1, tmp2);
+				printf("Dodawanie zespolonych: %.6f   %.6f \n", res.real, res.imag);
+				res = divide(tmp1, tmp2);
+				printf("Dzielenie zespolonych: %.6f   %.6f \n", res.real,res.imag);
+				
 				break;
 				
 
